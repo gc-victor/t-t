@@ -1,0 +1,20 @@
+{
+  "name": "t-t",
+  "version": "0.0.0",
+  "description": "tiny test library for your tiny library",
+  "main": "index.js",
+  "module": "dist/t-t.esm.js",
+  "umd:main": "dist/t-t.umd.js",
+  "unpkg": "dist/t-t.umd.js",
+  "source": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gc-victor:gc-victor/t-t.git"
+  },
+  "keywords": [
+    "test",
+    "tiny"
+  ],
+  "author": "Víctor García",
+  "license": "MIT"
+}
