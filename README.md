@@ -14,7 +14,7 @@ npm install gc-victor/t-t.git#master
 
 Create your first test
 
-```
+```javascript
 test('should return success if true', () => {
     expect(0).toBe(0);
 });
@@ -28,7 +28,7 @@ You can use `expect` with `toBe` or any of the NodeJS [Asserts](https://nodejs.o
 
 If your library contains browser code, you can mock the window with `window`.
 
-```
+```javascript
 test('should mock window', () => {
     window('document', { test: () => true });
 
@@ -42,7 +42,7 @@ test('should mock window', () => {
 
 Test asynchronously 
 
-```
+```javascript
 test('should work asynchronously', async () => {
     const zero = await Promise.resolve(0);
 
@@ -52,7 +52,7 @@ test('should work asynchronously', async () => {
 
 Finally, you can spy a method using `spyOn`.
 
-```
+```javascript
 test('should spy a method', () => {
     const test = {
         execute: () => 't-t'
