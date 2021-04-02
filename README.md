@@ -2,6 +2,14 @@
 
 Tiny test library for your tiny library.
 
+## Install
+
+You can use npm or yarn to install it.
+
+```console
+npm install gc-victor/t-t.git#master
+```
+
 ## Let's Play
 
 Create your first test
