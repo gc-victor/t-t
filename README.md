@@ -24,6 +24,20 @@ test('should return success if true', () => {
 1 - should return success if true
 ```
 
+Expects to throw an error
+
+```javascript
+test('should throw an error', () => {
+    expect(() => {
+        throw Error('This is an error');
+    }).throws(new Error('This is an error'));
+});
+```
+
+```
+2 - should throw an error
+```
+
 You can use `expect` with `toBe` or any of the NodeJS [Asserts](https://nodejs.org/api/assert.html) methods.
 
 If your library contains browser code, you can mock the window with `window`.
@@ -37,7 +51,7 @@ test('should mock window', () => {
 ``` 
 
 ```
-2 - should mock window
+3 - should mock window
 ```
 
 Test asynchronously 
@@ -71,7 +85,7 @@ test('should spy a method', () => {
 ``` 
 
 ```
-3 - should spy a method
+4 - should spy a method
 ```
 
 Enjoy :)
