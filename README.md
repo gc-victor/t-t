@@ -88,6 +88,15 @@ test('should spy a method', () => {
 4 - should spy a method
 ```
 
+If you need to execute only one test from a list of tests, there is a simple trick for it. 
+
+```javascript
+import { test as t } from 't-t';
+
+const only = t;
+const test = () => {};
+``` 
+
 Enjoy :)
 
 ## Acknowledgments
